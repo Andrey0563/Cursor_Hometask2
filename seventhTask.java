@@ -1,6 +1,7 @@
+//first var
+
 import java.util.Arrays;
 import java.util.Random;
-//first var
 //
 //public class seventhTask {
 //    public static void main(String[] args) {
@@ -36,9 +37,9 @@ public class seventhTask {
 
         int [] arr = new int[10];
 
-        arr = new int[]{7, 22, -15, 4, 48, -35, -43, 23, 12, 22};
+        arr = new int[]{49, 22, -15, 4, 48, -35, -43, 23, 12, 22};
 
-        int max = arr[0];
+        int max = 0;
         for (int i = 0; i < arr.length; i++){
             if (arr[i]%2==0 ) {
                 if (arr[i] > max){
