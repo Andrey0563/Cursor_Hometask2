@@ -33,12 +33,12 @@ import java.util.Random;
 //second var
 public class seventhTask {
     public static void main(String[] args) {
-        int[] arr = new int[]{49, -22, 15, 4, 48, -35, 43, -23, -12, 22};
+        int[] arr = new int[]{-49, -22, -15, -4, -48, -35, -43, -23, -12, -22};
         int i = 0;
         boolean isEven = false;
-            int max = 0;
-            for (i = 0; i < arr.length; i++) {
-                if (arr[i] % 2 == 0) {
+        int max = Integer.MIN_VALUE;
+             for (i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 == 0 ) {
                     if (arr[i] > max) {
                         max = arr[i];
                         isEven = true;
